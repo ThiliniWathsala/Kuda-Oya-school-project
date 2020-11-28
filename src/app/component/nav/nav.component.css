@@ -29,8 +29,8 @@
 }
 
 .navbar .nav-item .dropdown-menu  .dropdown-item:hover{
-  color: rgb(1, 16, 22) !important;
-  background-color: rgb(173, 177, 179);
+  color: rgb(227, 240, 245) !important;
+  background-color:#14193fed;
   opacity: 0.5;
 }
 a {
@@ -42,11 +42,13 @@ a {
   font-size: 1.5rem;
 }
 .mega-menu{
-  width:738px;
+  width:671px;
   overflow: hidden;
   padding: 10px;
   background-color: #b2b2c9;
-  margin-top: 7px
+  margin: 0;
+  margin-top: 7px;
+
 }
 .textStyles {
   color: rgb(0, 4, 9);
@@ -65,3 +67,10 @@ a {
 /*    margin-top: 7px*/
 /*  ;*/
 /*  }*/
+.navbar-light[_ngcontent-ejb-c18] .navbar-nav[_ngcontent-ejb-c18] .nav-link[_ngcontent-ejb-c18] {
+  color: rgb(7 4 4) ;
+  margin-left: 64px !important;
+}
+.nav-changes-styles{
+  margin-left: 86px !important;
+}
