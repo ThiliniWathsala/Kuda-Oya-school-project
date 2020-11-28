@@ -41,3 +41,27 @@ a {
 .h2, h2 {
   font-size: 1.5rem;
 }
+.mega-menu{
+  width:738px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #b2b2c9;
+  margin-top: 7px
+}
+.textStyles {
+  color: rgb(0, 4, 9);
+  font-weight: bold;
+  margin-left: 22px;
+  font-size: 13.6px;
+}
+
+.nav-bar-text {
+  color: #14193fed;
+  font-weight: bold;
+}
+/*@media (min-width: 992px)*/
+/*  .navbar-expand-lg .navbar-nav .dropdown-menu {*/
+/*    position: absolute;*/
+/*    margin-top: 7px*/
+/*  ;*/
+/*  }*/

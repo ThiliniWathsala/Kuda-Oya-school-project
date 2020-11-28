@@ -2,7 +2,7 @@
   <img
     class="img"
     alt="Angular Logo"
-    src="https://kuda-oya-maha-vidyalaya.s3.ap-south-1.amazonaws.com/logoa.png"
+    src="assets/images/logoa.png"
   />
   <span>
     <h2> Kuda Oya Maha Vidyalaya </h2>
@@ -16,18 +16,53 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link"  routerLink="/home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-bar-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About School
+          </a>
+          <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+              <div class="col-md-3">
+                <a class="dropdown-item" class="textStyles" routerLink="/home">History</a>
+              </div>
+              <div class="col-md-3">
+                <a class="dropdown-item" class="textStyles" routerLink="/home">Mehewara</a>
+              </div>
+              <div class="col-md-3">
+                <a class="dropdown-item"  class="textStyles"routerLink="/home">School Theme Song</a>
+              </div>
+              <div class="col-md-3">
+                <a class="dropdown-item" class="textStyles" routerLink="/home">School Theme Song</a>
+              </div>
+            </div>
+
+          </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Staff
+          <a class="nav-link dropdown-toggle nav-bar-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Academics
+          </a>
+          <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+              <div class="col-md-3">
+                <a class="dropdown-item" class="textStyles" routerLink="/home">Past Papers</a>
+              </div>
+              <div class="col-md-3">
+                <a class="dropdown-item" class="textStyles" routerLink="/home">Results</a>
+              </div>
+              <div class="col-md-3">
+                <a class="dropdown-item"  class="textStyles"routerLink="/home">Academic Staff</a>
+              </div>
+              <div class="col-md-3">
+                <a class="dropdown-item" class="textStyles" routerLink="/home">Admissions</a>
+              </div>
+            </div>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-bar-text" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Media
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Teachers</a>
@@ -36,13 +71,67 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Prefect Board (2020)
+          <a class="nav-link dropdown-toggle nav-bar-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Events
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Teachers</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+              <div class="col-md-4">
+                <h5  style="color: rgb(54, 121, 197);font-weight: bold;">Curative Services</h5>
+                <a class="dropdown-item" routerLink="/home">Base Hospital</a>
+                <a class="dropdown-item" routerLink="#">Division Hospital</a>
+                <div>
+                  <ul>
+                    <a class="dropdown-item" routerLink="/home">A Type</a>
+                    <a class="dropdown-item" routerLink="/home">B Type</a>
+                    <a class="dropdown-item" routerLink="/home">C Type</a>
+                  </ul>
+                </div>
+                <a class="dropdown-item" routerLink="/home">Primary Hospital</a>
+              </div>
+              <div class="col-md-4">
+                <h5 style="color: rgb(54, 121, 197);font-weight: bold;">Preventive Services</h5>
+                <a class="dropdown-item" routerLink="/home">MOH Office</a>
+              </div>
+              <div class="col-md-4">
+                <h5 style="color: rgb(54, 121, 197);font-weight: bold;">Special Campaigns</h5>
+                <a class="dropdown-item" routerLink="/home">Anti Rabies Unit</a>
+              </div>
+
+            </div>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-bar-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Announcements
+          </a>
+          <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+            <div class="row">
+              <div class="col-md-4">
+                <h5  style="color: rgb(54, 121, 197);font-weight: bold;">Curative Services</h5>
+                <a class="dropdown-item" routerLink="/home">Base Hospital</a>
+                <a class="dropdown-item" routerLink="#">Division Hospital</a>
+                <div>
+                  <ul>
+                    <a class="dropdown-item" routerLink="/home">A Type</a>
+                    <a class="dropdown-item" routerLink="/home">B Type</a>
+                    <a class="dropdown-item" routerLink="/home">C Type</a>
+                  </ul>
+                </div>
+                <a class="dropdown-item" routerLink="/home">Primary Hospital</a>
+              </div>
+              <div class="col-md-4">
+                <h5 style="color: rgb(54, 121, 197);font-weight: bold;">Preventive Services</h5>
+                <a class="dropdown-item" routerLink="/home">MOH Office</a>
+              </div>
+              <div class="col-md-4">
+                <h5 style="color: rgb(54, 121, 197);font-weight: bold;">Special Campaigns</h5>
+                <a class="dropdown-item" routerLink="/home">Anti Rabies Unit</a>
+              </div>
+
+            </div>
+
           </div>
         </li>
       </ul>
