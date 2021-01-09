@@ -1,1 +1,12 @@
-<input type="file" (change)="upload($event)" multiple>
+<div>
+<h1 style="color: slategrey">Students Portraits</h1>
+<div class="container text-center">
+  <div>
+    <img *ngFor="let image of images" [src] = "image" height="100"><br>
+  </div><br>
+<input class="input-style" type="file" (change)="upload($event)" multiple>
+  <button  style="margin-left: 10px; height: 30px" [disabled]="disableUpload" pButton type="button" label="Upload" (click)="save()"></button>
+  <button style="margin-left: 10px;height: 30px" pButton type="button" label="Cancel" (click)="cancelUpload()"></button>
+</div>
+</div>
+<!--<p-progressSpinner [style]="{width: '50px', height: '50px'}" styleClass="custom-spinner" strokeWidth="4"></p-progressSpinner>-->

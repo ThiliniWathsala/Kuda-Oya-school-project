@@ -1,0 +1,12 @@
+.input-style{
+  background-color: #c7d3dabd;
+  border-radius: 5px;
+}
+
+@keyframes p-progress-spinner-color {
+}
+
+.spinner-x{
+  width: 50px !important;
+  height: 50px !important;
+}

@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import {PortraitService} from './component/pages/media/portrait/portrait.service';
 import {FormBuilder, ReactiveFormsModule} from '@angular/forms';
 import { FormsModule } from '@angular/forms'
+import {ButtonModule} from 'primeng/button';
+import {ProgressSpinnerModule} from 'primeng/progressspinner';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,10 @@ import { FormsModule } from '@angular/forms'
         FileUploadModule,
         HttpClientModule,
         ReactiveFormsModule,
-        FormsModule
+        FormsModule,
+        ProgressSpinnerModule,
+        ButtonModule,
+
     ],
   providers: [PortraitService,FormBuilder],
   bootstrap: [AppComponent]
